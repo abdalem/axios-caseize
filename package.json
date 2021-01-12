@@ -1,0 +1,38 @@
+{
+  "name": "axios-caseize",
+  "version": "1.0.0",
+  "description": "Caseize request's and response's data through axios interceptors",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/abdalem/axios-caseize.git"
+  },
+  "keywords": [
+    "snakecase",
+    "camelcase",
+    "case",
+    "javascript",
+    "typescript",
+    "node",
+    "caseize",
+    "axios"
+  ],
+  "author": "abdalem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdalem/axios-caseize/issues"
+  },
+  "homepage": "https://github.com/abdalem/axios-caseize#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "caseize": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.167",
+    "typescript": "^4.1.3"
+  }
+}
