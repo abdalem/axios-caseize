@@ -1,6 +1,6 @@
 {
   "name": "axios-caseize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Caseize request's and response's data through axios interceptors",
   "main": "dist/index.js",
   "scripts": {
@@ -29,7 +29,7 @@
   "homepage": "https://github.com/abdalem/axios-caseize#readme",
   "dependencies": {
     "axios": "^0.21.1",
-    "caseize": "^1.0.4"
+    "caseize": "^1.0.5"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.167",
