@@ -1,6 +1,6 @@
 {
   "name": "axios-caseize",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Caseize request's and response's data through axios interceptors",
   "main": "dist/index.js",
   "scripts": {

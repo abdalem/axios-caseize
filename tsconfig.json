@@ -2,9 +2,7 @@
   "compilerOptions": {
     "target": "es2017",
     "module": "commonjs",
-    "lib": [
-      "es2017"
-    ],
+    "lib": ["es2017", "dom"],
     "noUnusedLocals": true,
     "skipLibCheck": true,
     "incremental": true,
@@ -19,10 +17,8 @@
     "esModuleInterop": true,
     "rootDir": "./src",
     "baseUrl": ".",
-    "rootDirs": [
-      "src"
-    ]
+    "rootDirs": ["src"]
   },
-  "exclude" : ["src/**/*.test.ts"],
+  "exclude": ["src/**/*.test.ts"],
   "include": ["src/**/*"]
 }
