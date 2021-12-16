@@ -1,9 +1,23 @@
 import { CompatibleCases } from 'caseize';
-import { AxiosInstance } from 'axios';
+import { AxiosInstance, Method } from 'axios';
 
 export interface Cases {
-  request: CompatibleCases | null,
-  response: CompatibleCases | null,
+  request: CompatibleCases | null;
+  response: CompatibleCases | null;
 }
 
-export type CaseizeInterceptors = (instance: AxiosInstance, cases?: Partial<Cases> ) => void
+export type InterceptorType = 'response' | 'request';
+
+interface AxiosCaseizeOptions {
+  cases?: Partial<Cases>;
+  disabledOn?: {
+    url: string;
+    method: Method | Method[];
+    on?: InterceptorType;
+  }[];
+}
+
+export type AxiosCaseize = (
+  instance: AxiosInstance,
+  options?: AxiosCaseizeOptions,
+) => void;
